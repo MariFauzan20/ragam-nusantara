@@ -1,0 +1,691 @@
+body {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  color: #152c5b;
+}
+
+.navbar-brand {
+  img {
+    max-height: 20px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #152c5b;
+
+      &.active {
+        font-weight: bold;
+        color: #3252df !important;
+      }
+    }
+  }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+
+  height: 40px;
+  border-radius: 700px;
+}
+
+.btn-signup {
+  background-color: #3252df;
+  color: #fff;
+  &:hover {
+    background-color: #4766f0;
+    color: #fff;
+  }
+}
+
+.btn-login {
+  background-color: transparent;
+  border: 2px solid #3252df;
+  color: #3252df;
+  &:hover {
+    background-color: #4766f0;
+    border: 2px solid #4766f0;
+    color: #fff;
+  }
+}
+
+// Header
+header {
+  padding: 180px 0 165px;
+  margin-top: -80px;
+
+  h1,
+  p {
+    color: #152c5b;
+  }
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+  }
+
+  p {
+    width: 70%;
+    font-weight: 300;
+    font-size: 16px;
+    color: #b0b0b0;
+  }
+
+  .btn-get-started {
+    background-color: #3252df;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+
+    &:hover {
+      background-color: #4766f0;
+      color: #fff;
+    }
+  }
+
+  img {
+    max-width: 600px;
+    position: relative;
+    right: -16px;
+    top: -172px;
+    z-index: -1;
+  }
+}
+
+// wisata populer
+.section-populer {
+  min-height: 540px;
+  margin-top: -300px;
+  margin-bottom: -450px;
+
+  .section-populer-heading {
+    h2,
+    p {
+      color: #152c5b;
+    }
+
+    h2 {
+      font-family: "Poppins", serif;
+      font-weight: 400;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.section-populer-content {
+  .section-populer-travel {
+    .card-travel {
+      min-height: 460px;
+      min-width: 361px;
+      background-color: #dddddd;
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+      border-radius: 15px;
+
+      .badge-price {
+        min-width: 180px;
+        min-height: 40px;
+        background-color: #ff498b;
+        right: 3.5px;
+        top: 0;
+        position: absolute;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+
+    .travel-country {
+      font-size: 20px;
+      color: #fff;
+      font-weight: 400;
+    }
+
+    .travel-location {
+      font-size: 15px;
+      color: #fff;
+      font-weight: 300;
+    }
+  }
+}
+
+// wisata populer
+#KulinerPopuler {
+  min-height: 540px;
+  margin-top: 60px;
+
+  .section-populer-heading {
+    h2,
+    p {
+      color: #152c5b;
+    }
+
+    h2 {
+      font-family: "Poppins", serif;
+      font-weight: 400;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+#KulinerContent {
+  .section-populer-travel {
+    .card-travel {
+      min-height: 180px;
+      min-width: 263px;
+      background-color: #dddddd;
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+      border-radius: 15px;
+
+      .badge-price {
+        min-width: 180px;
+        min-height: 40px;
+        background-color: #ff498b;
+        right: 6.5px;
+        top: 0;
+        position: absolute;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+
+    .travel-country {
+      font-size: 20px;
+      color: #152c5b;
+      font-weight: 400;
+    }
+
+    .travel-location {
+      font-size: 15px;
+      color: #152c5b;
+      font-weight: 300;
+    }
+  }
+}
+
+// Event Populer
+#EventPopuler {
+  min-height: 540px;
+  margin-top: 60px;
+
+  .section-populer-heading {
+    h2,
+    p {
+      color: #152c5b;
+    }
+
+    h2 {
+      font-family: "Poppins", serif;
+      font-weight: 400;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+#EventContent {
+  .section-populer-travel {
+    .card-travel {
+      min-height: 215px;
+      min-width: 361px;
+      background-color: #dddddd;
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+      border-radius: 15px;
+
+      .badge-price {
+        min-width: 180px;
+        min-height: 40px;
+        background-color: #ff498b;
+        right: 4px;
+        top: 0;
+        position: absolute;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+
+    .travel-country {
+      font-size: 20px;
+      color: #fff;
+      font-weight: 400;
+    }
+
+    .travel-location {
+      font-size: 15px;
+      color: #fff;
+      font-weight: 300;
+    }
+  }
+}
+
+// Souvenir Populer
+#SouvenirPopuler {
+  min-height: 540px;
+  margin-top: 60px;
+
+  .section-populer-heading {
+    h2,
+    p {
+      color: #152c5b;
+    }
+
+    h2 {
+      font-family: "Poppins", serif;
+      font-weight: 400;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+#SouvenirContent {
+  .section-populer-travel {
+    .card-travel {
+      min-height: 180px;
+      min-width: 263px;
+      background-color: #dddddd;
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+      border-radius: 15px;
+
+      .badge-price {
+        min-width: 180px;
+        min-height: 40px;
+        background-color: #ff498b;
+        right: 6.5px;
+        top: 0;
+        position: absolute;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+
+    .travel-country {
+      font-size: 20px;
+      color: #152c5b;
+      font-weight: 400;
+    }
+
+    .travel-location {
+      font-size: 15px;
+      color: #152c5b;
+      font-weight: 300;
+    }
+  }
+}
+
+#SectionMenu {
+  background-color: #000;
+  width: 100%;
+  max-height: 789px;
+  margin-top: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+  .card-1 {
+    width: 474px;
+    height: 605px;
+    background-image: url("./frontend/images/bg-wisata.jpg");
+    border-radius: 30px;
+  }
+
+  .card-2 {
+    width: 635px;
+    height: 287px;
+    background-image: url("/frontend/images/bg-kuliner.jpg");
+    border-radius: 30px;
+  }
+
+  .card-3 {
+    width: 302px;
+    height: 287px;
+    background-image: url("/frontend/images/bg-event.jpg");
+    border-radius: 30px;
+  }
+
+  .card-4 {
+    width: 306px;
+    height: 287px;
+    background-image: url("/frontend/images/bg-souvenir.jpg");
+    border-radius: 30px;
+  }
+
+  h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+  }
+}
+
+.section-footer {
+  h5 {
+    color: #152c5b;
+  }
+
+  p,
+  a {
+    font-weight: 300;
+    color: #b0b0b0;
+  }
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -68px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #071c4d;
+    }
+  }
+
+  .card-details {
+    padding: 30px;
+    border-radius: 11px;
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #b1b1b1;
+    }
+
+    h3 {
+      font-weight: 300;
+      font-size: 14px;
+      color: #071c4d;
+    }
+
+    .trip-informations {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #071c4d;
+      }
+
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+
+      .text-blue {
+        color: #071c4d;
+        font-weight: bold;
+      }
+
+      .text-orange {
+        color: #ff9e53;
+        font-weight: bold;
+      }
+    }
+
+    .payment-instructions {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .bank {
+      .bank-item {
+        h3 {
+          font-size: 18px;
+          color: #071c4d;
+          margin-bottom: 0;
+        }
+
+        p {
+          margin-bottom: 0;
+        }
+
+        .description {
+          margin-left: 10px;
+          overflow: hidden;
+          float: left;
+
+          p {
+            font-weight: normal;
+            font-size: 16px;
+            color: #071c4d;
+          }
+        }
+      }
+
+      .bank-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+      }
+    }
+
+    .disclaimer {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .gj-datepicker {
+      .datepicker {
+        border-right: 0;
+      }
+
+      .input-group-append {
+        .btn {
+          padding-right: 30px;
+        }
+      }
+    }
+
+    .btn-add-now {
+      background-color: #071c4d;
+      color: #fff;
+
+      &:hover {
+        background-color: #1b3b86;
+        color: #fff;
+      }
+    }
+  }
+
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+  }
+
+  .features {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #071c4d;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .features-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
+
+  .gallery {
+    .xzoom-container {
+      display: block;
+
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+      }
+
+      .xactive {
+        border: 4px solid #1abc9c;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .members {
+    .member-image {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .join-container {
+    margin-top: -16px;
+  }
+
+  .btn-join-now {
+    background-color: #ff9e53;
+    color: #fff;
+    border-radius: 0;
+
+    &:hover {
+      background-color: #ffb57c;
+      color: #fff;
+    }
+  }
+}
+
+.section-success {
+  height: 88vh;
+
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #071c4d;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #071c4d;
+    color: #fff;
+
+    &:hover {
+      background-color: #2a488e;
+      color: #fff;
+    }
+  }
+}
+
+.login-container {
+  @media (min-width: 992px) {
+    background: linear-gradient(90deg, #ffffff 60%, #e4e6eb 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.page-login {
+  height: 100vh;
+
+  .btn-login {
+    background-color: #ff9353;
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .section-left {
+    h1 {
+      font-family: "Playfair Display";
+      font-weight: bold;
+      font-size: 50px;
+      text-align: left;
+      color: #071c4d;
+    }
+  }
+
+  .section-right {
+    a {
+      font-family: Assistant;
+      font-weight: 300;
+      text-decoration: underline;
+      font-size: 16px;
+      text-align: center;
+      color: #bfbfbf;
+    }
+  }
+}

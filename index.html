@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="frontend/libraries/bootstrap/css/bootstrap.css"
+    />
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style.css -->
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>TravelCo</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container mt-3">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-transparent">
+        <a href="#" class="navbar-brand">
+          <img src="frontend/images/TravelCo.png" alt="TravelCo" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navb"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link">Wisata</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link">Kuliner</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link">Event</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link">Souvenir</a>
+            </li>
+          </ul>
+          <!-- Mobile Button -->
+          <form class="form-inline d-sm-block d-md-none">
+            <button class="btn btn-login my-2 my-sm-0 px-4 mr-2">Masuk</button>
+            <button class="btn btn-signup my-2 my-sm-0 px-4 ml-2">
+              Daftar
+            </button>
+          </form>
+          <!-- Desktop Button -->
+          <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+            <button
+              class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4 mx-4"
+            >
+              Masuk
+            </button>
+            <button
+              class="btn btn-signup btn-navbar-right my-2 my-sm-0 px-4 mx-4"
+            >
+              Daftar
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Header -->
+    <header class="text-start container">
+      <div class="row">
+        <div class="col">
+          <h1 data-aos="fade-right" data-aos-duration="1500">
+            Explore Indonesia and Beautiful Culture<br />with Us
+          </h1>
+          <p class="mt-3" data-aos="fade-right" data-aos-duration="2000">
+            We provide what you need to enjoy your holiday with family. Time to
+            make another memorable moments.
+          </p>
+          <a
+            href="#"
+            class="btn btn-get-started px-4 mt-4 shadow"
+            data-aos="fade-right"
+            data-aos-duration="2500"
+          >
+            Show Me Now
+          </a>
+        </div>
+        <div class="col">
+          <img src="frontend/images/bg-hero@2x.png" alt="Banner TravelCo" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Wisata Populer -->
+      <section class="section-populer" id="populer">
+        <div class="container">
+          <div class="row">
+            <div class="col section-populer-heading">
+              <h2>Wisata Populer</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-populer-content" id="populerContent">
+        <div class="container">
+          <div class="section-populer-travel row justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="
+                  background-image: url('frontend/images/wisata-bromo.jpg');
+                "
+              >
+                <p class="badge-price p-2 text-center">
+                  <b>Rp 300K</b> / Night
+                </p>
+                <div class="flex-column">
+                  <div class="travel-country">Gunung Bromo</div>
+                  <div class="travel-location">Probolinggo, Jawa Timur</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/wisata-toba.jpg')"
+              >
+                <p class="badge-price p-2 text-center">
+                  <b>Rp 400K</b> / Night
+                </p>
+                <div class="flex-column">
+                  <div class="travel-country">Danau Toba</div>
+                  <div class="travel-location">Samosir, Sumatera Utara</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="
+                  background-image: url('frontend/images/wisata-raja-ampat.jpg');
+                "
+              >
+                <p class="badge-price p-2 text-center">
+                  <b>Rp 500K</b> / Night
+                </p>
+                <div class="flex-column">
+                  <div class="travel-country">Kepulauan Raja Ampat</div>
+                  <div class="travel-location">Raja Ampat, Papua</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kuliner Populer -->
+      <section class="section-populer" id="KulinerPopuler">
+        <div class="container">
+          <div class="row">
+            <div class="col section-populer-heading">
+              <h2>Kuliner Populer</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-populer-content" id="KulinerContent">
+        <div class="container">
+          <div class="section-populer-travel row justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/rendang.jpg')"
+              >
+                <p class="badge-price p-2 text-center"><b>Rp 35K</b> / Serve</p>
+              </div>
+              <div class="travel-country">Rendang</div>
+              <div class="travel-location">Sumatera Barat, Indonesia</div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/sate.jpg')"
+              >
+                <p class="badge-price p-2 text-center"><b>Rp 30K</b> / Serve</p>
+              </div>
+              <div class="travel-country">Sate Bandeng</div>
+              <div class="travel-location">Jawa Tengah, Indonesia</div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/soto.jpg')"
+              >
+                <p class="badge-price p-2 text-center"><b>Rp 15K</b> / Serve</p>
+              </div>
+              <div class="travel-country">Soto Medan</div>
+              <div class="travel-location">Sumatera Utara, Indonesia</div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/nasi-goreng.jpg')"
+              >
+                <p class="badge-price p-2 text-center"><b>Rp 12K</b> / Serve</p>
+              </div>
+              <div class="travel-country">Nasi Goreng</div>
+              <div class="travel-location">Sumatera Selatan, Indonesia</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Event Populer -->
+      <section class="section-populer" id="EventPopuler">
+        <div class="container">
+          <div class="row">
+            <div class="col section-populer-heading">
+              <h2>Event Populer</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-populer-content" id="EventContent">
+        <div class="container">
+          <div class="section-populer-travel row justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/jaipong.jpg')"
+              >
+                <p class="badge-price p-2 text-center">
+                  <b>Rp 99K</b> / Person
+                </p>
+                <div class="flex-column">
+                  <div class="travel-country">Tari Jaipong</div>
+                  <div class="travel-location">Jawa Barat, Indonesia</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/seka.jpg')"
+              >
+                <p class="badge-price p-2 text-center">
+                  <b>Rp 199K</b> / Person
+                </p>
+                <div class="flex-column">
+                  <div class="travel-country">Tari Seka</div>
+                  <div class="travel-location">Papua, Indonesia</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/sisingaan.jpg')"
+              >
+                <p class="badge-price p-2 text-center">
+                  <b>Rp 79K</b> / Person
+                </p>
+                <div class="flex-column">
+                  <div class="travel-country">Sisingaan</div>
+                  <div class="travel-location">Jawa Barat, Indonesia</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Souvenir Populer -->
+      <section class="section-populer" id="SouvenirPopuler">
+        <div class="container">
+          <div class="row">
+            <div class="col section-populer-heading">
+              <h2>Souvenir Populer</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-populer-content" id="SouvenirContent">
+        <div class="container">
+          <div class="section-populer-travel row justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/songket.jpg')"
+              >
+                <p class="badge-price p-2 text-center"><b>Rp 800K</b> / Item</p>
+              </div>
+              <div class="travel-country">Songket Minangkabau</div>
+              <div class="travel-location">Sumatera Barat, Indonesia</div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/batik.jpg')"
+              >
+                <p class="badge-price p-2 text-center"><b>Rp 500K</b> / Item</p>
+              </div>
+              <div class="travel-country">Sasirangan Banjar</div>
+              <div class="travel-location">Kalimantan Selatan, Indonesia</div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/gamelan.jpg')"
+              >
+                <p class="badge-price p-2 text-center"><b>Rp 300K</b> / Item</p>
+              </div>
+              <div class="travel-country">Gamelan</div>
+              <div class="travel-location">Bali, Indonesia</div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel d-flex align-items-end"
+                style="background-image: url('frontend/images/wayang.jpg')"
+              >
+                <p class="badge-price p-2 text-center"><b>Rp 300K</b> / Item</p>
+              </div>
+              <div class="travel-country">Wayang</div>
+              <div class="travel-location">Bali, Indonesia</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu -->
+      <section id="SectionMenu">
+        <div class="container justify-content-center d-flex">
+          <div class="row mr-5">
+            <div class="card-1 d-flex align-items-end p-5">
+              <div class="flex-column">
+                <h2>Wisata</h2>
+                <p>1000+ Destinations</p>
+              </div>
+            </div>
+          </div>
+          <div class="row flex-column justify-content-center">
+            <div class="card-2 d-flex align-items-end p-4">
+              <div class="flex-column">
+                <h2>Kuliner</h2>
+                <p>3000+ Culinary</p>
+              </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+              <div class="card-3 mr-4 d-flex align-items-end p-3">
+                <div class="flex-column">
+                  <h2>Event</h2>
+                  <p>500+ Events</p>
+                </div>
+              </div>
+              <div class="card-4 d-flex align-items-end p-3">
+                <div class="flex-column">
+                  <h2>Souvenir</h2>
+                  <p>4000+ Souvenir</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section-footer mb-4">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <h5><span style="color: #3252df">Travel</span>Co</h5>
+                <p>We make your holiday fun <br />and memorable.</p>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>For Beginners</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">New Account</a></li>
+                  <li><a href="#">Start Booking a Room</a></li>
+                  <li><a href="#">Use Payments</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>Explore Us</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Our Careers</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>Connect Us</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">support@travelco.id</a></li>
+                  <li><a href="#">021 - 2208 - 1996</a></li>
+                  <li><a href="#">0821-2222-8888</a></li>
+                  <li><a href="#">TravelCo, Medan, Sumatera Utara</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-items-center pt-4"
+        >
+          <div class="col-auto text-secondary font-weight-light">
+            Copyright 2021 • All rights reserved • TravelCo
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
